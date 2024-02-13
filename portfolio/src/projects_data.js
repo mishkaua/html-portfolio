@@ -2,6 +2,8 @@ import postit from "./assets/postit.png";
 import moveWithJoy from "./assets/move-with-joy.png";
 import nikeshoes from "./assets/nikeshoes.png";
 import showtime from "./assets/showtime.png";
+import rottenTomatoes from "./assets/rotten-tomatoes.png";
+import yowl from "./assets/yowl.png"
 
 export const PROJECT_LIST = [
   {
@@ -24,7 +26,7 @@ export const PROJECT_LIST = [
     id: 3,
     title: "Rotten Tomatoes",
     description: "A movie presentation and review website, which allows registered users to see new films with descriptions, comments and the review of the public. It also includes the admin panel allowing to manage users, see statistics on comments and notes given to movies, and add new films from the TMDB API.",
-    src: "",
+    src: rottenTomatoes,
     link: "",
     technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "MongoDB", "React", "Next.Js"],
   },
@@ -40,7 +42,7 @@ export const PROJECT_LIST = [
     id: 5,
     title: "YOWL",
     description: "YOWL is a free website allowing the users to share their comments on any content. The application decentralizes comments from social networks.",
-    src: "",
+    src: yowl,
     link: "",
     technologies: ["Vue.JS", "Javascript", "Laravel 10", "PHP", "MySQL"],
   },
