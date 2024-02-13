@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <div className="flex justify-between h-32 p-8">
+    <div className="flex justify-between md:h-32 p-8">
       <div className="flex pl-8 space-x-8">
         <a href="http://www.linkedin.com/in/maryna-pichyk-dev">
           <FaLinkedinIn size={24} />
@@ -13,7 +13,9 @@ export function Footer() {
         </a>
       </div>
       <div className="flex flex-col lg:pl-24 pl-8">
-        <p className="text-lg">© {new Date().getFullYear()} Maryna Pichyk</p>
+        <p className="md:text-lg text-sm">
+          © {new Date().getFullYear()} Maryna Pichyk
+        </p>
         <p>
           {"Coded in "}
           <a href="https://code.visualstudio.com/" className="link">

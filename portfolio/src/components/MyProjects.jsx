@@ -12,7 +12,7 @@ export function MyProjects() {
           return (
             <div
               key={index}
-              className="grid grid-cols-3 rounded-lg pl-8 shadow-lg hover:bg-gradient-dark cursor-pointer"
+              className="md:grid md:grid-cols-3 rounded-lg pl-8 shadow-lg hover:bg-gradient-dark cursor-pointer"
             >
               {/*       Project Info */}
               <img className="h-40 mt-2 rounded-lg" src={project.src} alt="" />

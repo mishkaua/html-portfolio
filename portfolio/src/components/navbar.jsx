@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export function Navbar() {
   const [isMobileMenuShown, setIsMobileMenuShown] = useState(false);
   return (
-    <nav className="sticky top-0 flex justify-between bg-gradient px-8 lg:px-12">
+    <nav className="md:sticky top-0 flex justify-between bg-gradient px-8 lg:px-12">
       {/* Logo */}
       <a href="/">
         <img
@@ -20,7 +20,7 @@ export function Navbar() {
       {/* Menu Hamburger */}
       <button
         onClick={() => setIsMobileMenuShown(!isMobileMenuShown)}
-        className="focus:ring-2 focus:ring-sky-500 border my-2 hover:bg-sky-300 rounded md:hidden"
+        className="focus:ring-2 focus:ring-sky-500 border my-2 hover:bg-gradient rounded md:hidden"
       >
         <RxHamburgerMenu size={25} />
       </button>
@@ -31,7 +31,7 @@ export function Navbar() {
           !isMobileMenuShown === false && "hidden"
         } w-full lg:w-auto`}
       >
-        <ul className="flex flex-col md:flex-row bg-sky-400 lg:bg-transparent text-lg p-4 border md:border-none rounded-lg">
+        <ul className="flex flex-col md:flex-row lg:bg-transparent text-lg p-4 border md:border-none rounded-lg">
           <li className="bg-sky-700 text-white lg:bg-transparent lg:text-sky-700 navbar-list-item">
             <Link to="/">HOME</Link>
           </li>

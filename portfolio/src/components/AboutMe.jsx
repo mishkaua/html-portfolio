@@ -1,9 +1,9 @@
 export function AboutMe() {
   return (
-    <div className="grid grid-cols-7 gap-4">
+    <div className="md:grid md:grid-cols-7 gap-4">
       {/* Global div */}
       {/*     Left Panel */}
-      <div className="col-span-3 px-8 lg:px-12">
+      <div className="md:col-span-3 px-8 lg:px-12">
         <h1 className="fira text-7xl sm:text-4xl tracking-tighter text-white font-bold">
           Maryna Pichyk
         </h1>
@@ -15,7 +15,7 @@ export function AboutMe() {
         </p>
 
         {/* Buttons */}
-        <div className="flex justify-start space-x-16 py-8">
+        <div className="flex flex-wrap justify-start xl:space-x-16 space-y-4 py-8">
           <button className="bg-sky-600 text-white border px-8 py-3 rounded btn-press-anim">
             <a href="/myprojects">Mes projets</a>
           </button>
@@ -25,9 +25,9 @@ export function AboutMe() {
         </div>
       </div>
       {/* Right column - About Me Section - Pitch */}
-      <div className="col-span-4 space-y-2 text-sky-200 text-sm mr-4 text-justify">
+      <div className="md:col-span-4 space-y-2 text-sky-200 text-lg md:text-sm ml-4 md:ml-0 mr-4 text-justify">
         <p className="mb-1">{`Bonjour, je suis Maryna Pichyk. J’aime mettre en place et améliorer le fonctionnement des outils et de systèmes. Il n’est donc pas suprenant qu’après des années en tant que Gestionnaire Logiciel Métier (AMOA dans un cabinet de conseil en propriété industrielle), j’ai décidé de reprendre les études pour pouvoir proposer de solutions plus complètes aux clients.`}</p>
-        <p className="text-sky-200 text-sm">
+        <p>
           {`Pour cela, j’ai choisi une formation intense et intensive avec une `}
           <span className="standout">specialization full-stack</span>
           {` à Coding Academy by Epitech. Et je viens`}
@@ -47,7 +47,7 @@ export function AboutMe() {
           php, python, Laravel, Next.JS, SQL, MongoDB,`}</span>
           {`tout en réalisant de projets réels et variés.`}
         </p>
-        <p>{`Comme démontré par mon parcours professionnel et personnel, je m’épannouie dans le context multiculturel et les domaines technophiles.`}</p>
+        <p className="">{`Comme démontré par mon parcours professionnel et personnel, je m’épannouie dans le context multiculturel et les domaines technophiles.`}</p>
         {/*         <p>{`Lorsque je ne suis pas devant l'ordinateur, j’adore passer du temps avec ma famille, voyager, me reconnecter avec la nature, ou de nourir mon esprit avec le yoga ou la lecture.`}</p>
          */}
         <p>
