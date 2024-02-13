@@ -15,8 +15,8 @@ export function AboutMe() {
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-wrap justify-start xl:space-x-16 space-y-4 py-8">
-          <button className="bg-sky-600 text-white border px-8 py-3 rounded btn-press-anim">
+        <div className="flex flex-wrap justify-start xl:space-x-16 py-8">
+          <button className="bg-sky-600 text-white border px-8 mb-4 py-3 rounded btn-press-anim">
             <a href="/myprojects">Mes projets</a>
           </button>
           <button className="bg-sky-600 text-white border px-8 py-3 rounded btn-press-anim">
