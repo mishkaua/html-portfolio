@@ -7,33 +7,29 @@ export function MyProjects() {
         Mes Projets
       </div>
       {/*       Project Card */}
-      <div className="grid grid-col-6 space-y-4">
+      <div className="space-y-4">
         {PROJECT_LIST.map((project, index) => {
           return (
             <div
               key={index}
-              className="rounded-lg shadow-lg hover:bg-gradient-dark cursor-pointer"
+              className="grid grid-cols-3 rounded-lg pl-8 shadow-lg hover:bg-gradient-dark cursor-pointer"
             >
               {/*       Project Info */}
-              <img
-                className="col-start-1 col-span-1 h-40 rounded-lg object-cover"
-                src={project.src}
-                alt=""
-              />
-              <div className="col-start-2 px-4 py-2">
-                <h5 className="mb-2 text-xl font-medium text-sky-200">
+              <img className="h-40 mt-2 rounded-lg" src={project.src} alt="" />
+              <div className="col-span-2 px-4 py-2">
+                <h5 className="inset-start-100 mb-2 text-xl font-medium text-sky-200">
                   {project.title}
                 </h5>
                 <p className="mb-4 text-sm text-white">{project.description}</p>
               </div>
               {/* List of technologies used */}
-              <div>
+              <div className="col-start-2 col-span-2">
                 <ul className="flex flex-wrap space-x-2 my-2 px-4">
                   {project.technologies.map((technology, index) => {
                     return (
                       <li
                         key={index}
-                        className="flex rounded-full text-sm font-sm py-1 px-2 text-sky-200 border"
+                        className="flex flex-wrap rounded-full text-sm my-1 font-sm py-1 px-2 text-sky-200 border"
                       >
                         {technology}
                       </li>
