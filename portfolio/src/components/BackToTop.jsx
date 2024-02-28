@@ -38,7 +38,7 @@ export function BackToTop() {
             className={` ${
               showButton ? "fixed bottom-[40px] right-[40px]" : "hidden"
             }
-        rounded-full p-2 transition transform animate-bounce text-white bg-sky-700 shadow-md hover:bg-sky-500 hover:shadow-lg`}
+        rounded-full p-2 transition transform ease-out animate-bounce text-white bg-sky-900 shadow-md hover:bg-sky-500 hover:shadow-lg`}
           >
             <IoArrowUpCircleOutline size={36} />
           </button>

@@ -1,25 +1,31 @@
 export function AboutMe() {
   return (
-    <div className="md:grid md:grid-cols-7 gap-4">
+    <div id="about" className="md:grid md:grid-cols-7 px-8 lg:px-12 gap-4">
       {/* Global div */}
       {/*     Left Panel */}
-      <div className="md:col-span-3 px-8 lg:px-12">
+      <div className="md:col-span-3">
         <h1 className="fira text-7xl sm:text-4xl tracking-tighter text-white font-bold">
           Maryna Pichyk
         </h1>
         <h2 className="fira text-3xl lg:text-4xl mt-3 uppercase tracking-tight text-white font-semibold">
-          développeuse full-stack junior
+          développeuse full-stack
         </h2>
         <p className="text-red-800 text-xl font-bold lg:text-md mt-2">
           A la recherche du stage ou CDD à partir de mai 2024.
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-wrap justify-start xl:space-x-16 py-8">
-          <button className="bg-sky-600 text-white border mt-4 mx-4 px-8 py-3 rounded btn-press-anim">
+        <div className="flex flex-wrap justify-start gap-4 py-8">
+          <button
+            alt="my projects button"
+            className="bg-sky-900 text-white border w-48 px-8 py-3 rounded btn-press-anim"
+          >
             <a href="/myprojects">Mes projets</a>
           </button>
-          <button className="bg-sky-600 text-white border mt-4 mx-4 px-8 py-3 rounded btn-press-anim">
+          <button
+            alt="contact button"
+            className="bg-sky-900 text-white border w-48 px-8 py-3 rounded btn-press-anim"
+          >
             <a href="/contact">Me contacter</a>
           </button>
         </div>

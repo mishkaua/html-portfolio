@@ -30,7 +30,7 @@ body {
     @apply font-semibold hover:text-white cursor-pointer;
   }
   .navbar-list-item {
-    @apply fira font-bold lg:text-2xl px-3 py-2 rounded cursor-pointer;
+    @apply fira font-bold lg:text-2xl px-1 py-1 md:px-3 md:py-2 rounded cursor-pointer;
   }
   .standout {
     @apply font-bold text-white cursor-pointer;

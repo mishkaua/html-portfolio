@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 export function App() {
   return (
     <div className="animate-fadeIn bg-gradient">
+      <Navbar />
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/about" element={<AboutMe />} />
           <Route path="/myprojects" element={<MyProjects />} />
