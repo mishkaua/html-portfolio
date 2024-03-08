@@ -20,13 +20,13 @@ export function AboutMe() {
             alt="my projects button"
             className="bg-sky-900 text-white border w-48 px-8 py-3 rounded btn-press-anim"
           >
-            <a href="/myprojects">Mes projets</a>
+            <a href="#projects">Mes projets</a>
           </button>
           <button
             alt="contact button"
             className="bg-sky-900 text-white border w-48 px-8 py-3 rounded btn-press-anim"
           >
-            <a href="/contact">Me contacter</a>
+            <a href="#contact">Me contacter</a>
           </button>
         </div>
       </div>

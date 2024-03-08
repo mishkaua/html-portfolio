@@ -6,7 +6,7 @@ import { useState } from "react";
 export function Navbar() {
   const [isMobileMenuShown, setIsMobileMenuShown] = useState(false);
   return (
-    <nav className="sticky top-0 flex justify-between bg-gradient px-8 lg:px-12">
+    <nav className="sticky flex top-0 w-full justify-between bg-gradient px-8 lg:px-12">
       {/* Logo */}
       <a href="/">
         <img
@@ -43,7 +43,7 @@ export function Navbar() {
             </a>
           </li>
           <li className="hover:bg-cyan-50 navbar-list-item">
-            <a href="contact">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>

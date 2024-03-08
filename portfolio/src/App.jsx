@@ -13,7 +13,7 @@ export function App() {
       <Router>
         <Routes>
           <Route path="/about" element={<AboutMe />} />
-          <Route path="/myprojects" element={<MyProjects />} />
+          <Route path="/projects" element={<MyProjects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
