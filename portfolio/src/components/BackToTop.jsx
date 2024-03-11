@@ -36,7 +36,7 @@ export function BackToTop() {
           <button
             onClick={backToTop}
             className={` ${
-              showButton ? "fixed bottom-[40px] right-[40px]" : "hidden"
+              showButton ? "fixed bottom-[40px] right-[40px] z-50" : "hidden"
             }
         rounded-full p-2 transition transform ease-out animate-bounce text-white bg-sky-900 shadow-md hover:bg-sky-500 hover:shadow-lg`}
           >

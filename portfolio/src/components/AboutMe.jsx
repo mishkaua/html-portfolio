@@ -1,6 +1,9 @@
 export function AboutMe() {
   return (
-    <div id="about" className="md:grid md:grid-cols-7 px-8 lg:px-12 gap-4">
+    <div
+      id="about"
+      className="md:grid md:grid-cols-7 px-8 lg:px-12 gap-4 pt-[80px] mt-[-80px] xl:pt-[130px] xl:mt-[-130px]"
+    >
       {/* Global div */}
       {/*     Left Panel */}
       <div className="md:col-span-3">
@@ -11,7 +14,7 @@ export function AboutMe() {
           développeuse full-stack
         </h2>
         <p className="text-red-800 text-xl font-bold lg:text-md mt-2">
-          A la recherche du stage ou CDD à partir de mai 2024.
+          {`A la recherche d'une opportunité professionnelle à partir de mai 2024.`}
         </p>
 
         {/* Buttons */}

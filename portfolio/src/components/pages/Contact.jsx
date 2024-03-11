@@ -2,7 +2,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 export function Contact() {
   return (
-    <div id="contact" className="border hover:border-sky-200 p-8 lg:p-12">
+    <div
+      id="contact"
+      className="border hover:border-sky-200 p-8 lg:p-12 pt-10 mt-[-10]"
+    >
       <div className="hover:scale-105 transform transition flex flex-col flex-center text-center text-sky-200 rounded space-y-10 text-4xl">
         <div className="pt-4 text-sky-200">
           {"VOUS AVEZ UN "}
