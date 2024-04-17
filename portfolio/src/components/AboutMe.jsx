@@ -20,13 +20,13 @@ export function AboutMe() {
         {/* Buttons */}
         <div className="flex flex-wrap justify-start gap-4 py-8">
           <button
-            alt="my projects button"
+            aria-label="my projects button"
             className="bg-sky-900 text-white border w-48 px-8 py-3 rounded btn-press-anim"
           >
             <a href="#projects">Mes projets</a>
           </button>
           <button
-            alt="contact button"
+            aria-label="contact button"
             className="bg-sky-900 text-white border w-48 px-8 py-3 rounded btn-press-anim"
           >
             <a href="#contact">Me contacter</a>

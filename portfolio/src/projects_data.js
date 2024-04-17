@@ -1,9 +1,9 @@
-import postit from "./assets/postit.png";
-import moveWithJoy from "./assets/move-with-joy.png";
-import nikeshoes from "./assets/nikeshoes.png";
-import showtime from "./assets/showtime.png";
-import rottenTomatoes from "./assets/rotten-tomatoes.png";
-import yowl from "./assets/yowl.png"
+import postit from "./assets/postit.webp";
+import moveWithJoy from "./assets/move-with-joy.webp";
+import nikeshoes from "./assets/nikeshoes.webp";
+import showtime from "./assets/showtime.webp";
+import rottenTomatoes from "./assets/rotten-tomatoes.webp";
+import yowl from "./assets/yowl.webp"
 
 export const PROJECT_LIST = [
   {
