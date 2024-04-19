@@ -1,4 +1,4 @@
-export function AboutMe() {
+export default function AboutMe() {
   return (
     <div
       id="about"

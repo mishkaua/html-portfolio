@@ -1,6 +1,6 @@
 import { FaPhoneAlt } from "react-icons/fa";
 
-export function Contact() {
+export default function Contact() {
   return (
     <div
       id="contact"

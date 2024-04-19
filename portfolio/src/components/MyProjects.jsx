@@ -1,6 +1,6 @@
 import { PROJECT_LIST } from "../projects_data";
 
-export function MyProjects() {
+export default function MyProjects() {
   return (
     <div id="projects" className="px-8 lg:px-12 pt-40 mt-[-40]">
       <div className="fira tracking-tight text-white uppercase text-3xl lg:text-4xl mt-3">

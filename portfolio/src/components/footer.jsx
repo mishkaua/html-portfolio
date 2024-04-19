@@ -8,6 +8,7 @@ export function Footer() {
         <a
           href="http://www.linkedin.com/in/maryna-pichyk-dev"
           target="_blank"
+          aria-label="link to Linkedin account"
           rel="noreferrer"
         >
           <FaLinkedinIn size={24} />

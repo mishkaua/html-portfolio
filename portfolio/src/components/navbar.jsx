@@ -19,6 +19,7 @@ export function Navbar() {
       {/* Menu Hamburger */}
       <button
         onClick={() => setIsMobileMenuShown(!isMobileMenuShown)}
+        aria-label="navbar button"
         className="focus:ring-2 focus:ring-sky-500 my-2 px-4 hover:bg-gradient rounded md:hidden"
       >
         <RxHamburgerMenu size={30} />
